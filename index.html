@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Cualquier cosa de JS lo vamos a buscar en la documentacion MDM-->
+            <!--CAN i USE tambien es una doucmentacion muy buena -->
+
+    <!-- vanilla JS es javascript puro, sin librerias externas -->
+    <!-- ¿Por que utilizar react? 
+        El acceso y el uso del DOM gasta muchos recursos
+        Jquery lo solucionaba un poco solamente refrescando parde del codigo que sufria transformacion
+        React lo que hace es detectar el nodo sobre el que se hace el cambio, y renderiza ese sector (nodos hacia abajo, no alrededor como JQuery)
+        
+            React utiliza el virtual DOM, que es una copia del DOM real, que es donde opera react, y lo hace utilizando la tecnologia Fiber
+            React copia el DOM (DOM virtual), obtiene la info de que nodo a cambiado, lo pasa al DOM virtual, y lo plasma al real DOM. Este proceso se llama reconciliacion
+
+
+        1-React ejecuta un algoritmo de 'diffin' para identifica lo que cambio
+        2-Actualiza el DOM con la reconciliacion, con los resultados del 'diff'
+        
+
+        ¿Que es NODE?
+            Es un entorno de ejecucion de JS que le permite al codigo en js ser 
+            ejecutado por nuestra computadora
+            Podemos darle a node un archivo js y este puede ser ejecutado, y darle acceso
+            a recursos de nuestra computadora (IO, Networtk, )
+
+        ¿DENO?
+            Es un nuevo entorno de ejecucion que mejora algunas cosas respecto a NODE
+
+        ¿Que es el CLI?
+
+            La interfaz de linea de comandos o interfaz de linea de ordenes,
+            es un metodo que permite a los usuarios dar instrucciones a algun programa informatico por medio
+            de una line de texto simple 
+            REACT tiene su propia CLI, pero actualmente solo admite la creacion 
+            de una aplicacion (create-react-app)
+
+            PRIMER MODO
+                Para crearme la libreria de REACT
+                En la consola:
+                    npm install -g create-react-app
+                Una vez se a creado, creo el proyecto:
+                    create-react-app prueba1
+                Este ultimo comando es el que tengo que utilizar cuando empiece un nuevo proyecto
+    
+            SEGUNDO MODO (recomendado por la documentacion de REACT)
+                npx create-react-app prueba2
+
+
+            Si no tengo el NODE MODULES:
+                en la consola: npm install
+
+
+
+
+    -->
+
+
+</body>
+</html>
